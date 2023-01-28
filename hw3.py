@@ -9,10 +9,10 @@
 
 a=input('Введите шестизначный номер билета:')
 
-if (len(a)==6):
-    x=int(a[0])+int(a[1])+int(a[2])
-    y=int(a[3])+int(a[4])+int(a[5])
-    if x==y:
+if (len(a) == 6):
+    x=int(a[0]) + int(a[1]) + int(a[2])
+    y=int(a[3]) + int(a[4]) + int(a[5])
+    if x == y:
         print('Yes')
     else:
         print('No')
